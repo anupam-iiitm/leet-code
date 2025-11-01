@@ -5,7 +5,7 @@ public:
         vector<int> v;
         for(int i:nums){
             m[i]++;
-            if(m[i]>1) v.push_back(i);
+            if(m[i]==2) v.push_back(i);
         }
         return v;
     }
