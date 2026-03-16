@@ -6,8 +6,7 @@ public:
         int i=2;
         while(m<=n){
             if(m==n) return m-1;
-            m=m*i;
-            
+            m=m*i; 
         }
         m=m-1;
         return (m-n);
